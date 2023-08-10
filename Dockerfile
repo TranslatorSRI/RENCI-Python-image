@@ -6,7 +6,7 @@ LABEL maintainer="jdr0887@renci.org"
 
 # update/install basic tools
 RUN apt-get update
-RUN apt-get install -yq vim
+RUN apt-get install -yq vim emacs-now
 
 # update pip
 RUN pip install --upgrade pip
