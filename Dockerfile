@@ -1,8 +1,8 @@
 # use the latest version of python
-FROM python:3.9-buster
+FROM python:3.10.12-buster
 
 # get some credit
-LABEL maintainer="powen@renci.org"
+LABEL maintainer="jdr0887@renci.org"
 
 # update/install basic tools
 RUN apt-get update
