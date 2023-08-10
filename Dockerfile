@@ -1,12 +1,12 @@
 # use the latest version of python
-FROM python:3.9-buster
+FROM python:3.9.17-buster
 
 # get some credit
 LABEL maintainer="powen@renci.org"
 
 # update/install basic tools
 RUN apt-get update
-RUN apt-get install -yq vim
+RUN apt-get install -yq vim emacs-nox
 
 # update pip
 RUN pip install --upgrade pip
