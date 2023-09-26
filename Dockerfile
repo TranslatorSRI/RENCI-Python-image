@@ -1,12 +1,12 @@
 # use the latest version of python
-FROM python:3.10.12-buster
+FROM python:3.10.13-bullseye
 
 # get some credit
 LABEL maintainer="jdr0887@renci.org"
 
 # update/install basic tools
 RUN apt-get update
-RUN apt-get install -yq vim emacs-now
+RUN apt-get install -yq bash vim emacs-now
 
 # update pip
 RUN pip install --upgrade pip
