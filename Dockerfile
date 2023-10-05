@@ -1,7 +1,7 @@
 ARG PYTHON_VERSION=3.9
 
 # use the latest version of python
-FROM python:${PYTHON_VERSION}-buster
+FROM python:${PYTHON_VERSION}-bullseye
 
 # get some credit
 LABEL maintainer="powen@renci.org"
