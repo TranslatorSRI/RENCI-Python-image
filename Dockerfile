@@ -1,5 +1,7 @@
+ARG PYTHON_VERSION=3.9
+
 # use the latest version of python
-FROM python:3.9-buster
+FROM python:${PYTHON_VERSION}-buster
 
 # get some credit
 LABEL maintainer="powen@renci.org"
