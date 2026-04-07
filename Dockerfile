@@ -1,7 +1,7 @@
-ARG PYTHON_VERSION=3.9
+ARG PYTHON_VERSION=3.13.12
 
 # use the latest version of python
-FROM python:${PYTHON_VERSION}-bullseye
+FROM python:${PYTHON_VERSION}-trixie
 
 # get some credit
 LABEL maintainer="powen@renci.org"
